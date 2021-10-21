@@ -1,0 +1,219 @@
+/*
+App Name: Wizard Pack Menus
+Author: WIZARD 
+Author URI: https://somoswizard.com/
+GitHub: @MarianMdna / @gabrielgonzalezcastellvi
+Version: 1.0
+Mendoza. Argentina
+Enero 2021
+Con tecnología Bootstrap
+*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 1em;
+}
+.container{
+    margin: 0;
+    padding: 1em 0;
+    
+}
+.txtDestacado{
+    background-color: #bebebe;
+}
+.alignLeft{
+    text-align: left;
+}
+.alignCenter{
+    text-align: center;
+}
+
+section a {
+    color: #fbb03b;
+    text-decoration: none;
+}
+section a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+ ul.ocultarVineta{
+    list-style:none;
+ }
+li{
+    margin: 0.5em 0;
+}
+.col-sm-6 {
+    margin: 0.5em 0;
+    padding: 1em 0;
+}
+.col-sm-4{
+    margin: 0.5em 0;
+    padding: 1em 0;
+}
+.col-sm-8{
+    margin: 0.5em 0;
+    padding: 1em 0;
+}
+.col{
+    margin: 0.5em;
+}
+.backGris{
+    background-color: #eeeeee;
+    padding: 1em 0;
+}
+.backVerde{
+    background-color: #3bfbb0;
+}
+.boxShadow{
+    
+    box-shadow: 1px 1px 5px #000;
+
+    
+}
+.imgRedondeada{
+    border-radius: 10px;
+}
+img.imgCarta{
+    max-width: 200px;
+}
+img.imgPromo{
+    max-width: 50px;
+}
+img.imgThumbPanel{
+    max-width: 100px;
+}
+.inline img, p{
+    display: inline-block;
+}
+/*carta y promos*/
+#backCarta{   
+    position: relative;
+    background: #fff;
+    /*overflow: hidden; si la activo corta la imagen y no se puede scrolear*/
+}
+#backCarta:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url("http://localhost/Aplicacion-web-cartas-digitales/imagenes/cartaBackground2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#backCarta section{
+    position: relative;
+    z-index: 2;
+    color: #000;
+}
+
+
+
+
+
+/*alerta*/
+div.mjeAlerta{
+    background-color:#3bfbb085;
+    padding: 1em;
+    text-align: center;
+    font-weight: 700;
+}
+div.mjeAlerta i{
+font-size: 36px;
+}
+/*ubicacion*/
+
+section#ubicacionBar iframe{
+    width: 100% !important;
+}
+@media only screen and (max-width: 600px) {
+    section#ubicacionBar iframe{
+        width: auto !important;
+    }
+
+}
+/*plataformas de pedido*/
+img.grayscale{
+    filter: grayscale(1);
+}
+
+/*redes sociales*/
+.rrssIcono{
+    font-size: 36px;
+    margin: 0.5em;
+}
+/*footer*/
+
+footer{
+    background-color: #333333;
+    padding: 1.5em 0 0.5em 0;
+    text-align: center;
+    color:#fff;
+    font-size: 10px;
+    position: relative;
+    z-index: 2;
+}
+footer a{
+    color: #fbb03b;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*WPANEL*/
+section#wPanelcontainer{
+  padding-bottom: 10em; 
+}
+div.contenedorgris{
+    background-color: #eeeeee;
+    padding: 1em 0.5em;
+    margin: 0.7em auto;
+    border-radius: 5px;
+}
+div.checkbox{
+    margin-top: 1em;
+    font-size: 11px;
+}
+section#wPanelcontainer .btn{
+    margin: 1em 0;
+}
+.btn-nuevo{
+    background-color: yellow !important;
+    color: #fff !important;
+}
+
+.btn-lila{
+    background-color: #b03bfb !important;
+    color: #fff !important;
+}
+.btn-verde{
+    background-color: #3bfbb0 !important;
+    color: #000 !important;
+}
+<<<<<<< HEAD
+/*section#soporte{
+   /* border: solid 1px red;*/
+=======
+
+>>>>>>> 85b8e205d1cf1b14ff3af80dadcdb996eacab5f1
